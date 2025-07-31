@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Earrings Collection - SK Creation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Merriweather', serif;
+      background-color: #fdf6f1;
+      color: #3b2f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #d4a373;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      padding: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .gallery-item {
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 300px; /* uniform image height */
+      object-fit: cover; /* maintains quality & fills space */
+      border-radius: 8px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .back-button {
+      text-align: right;
+      padding: 20px 40px;
+    }
+
+    .back-button a {
+      text-decoration: none;
+      color: white;
+      background-color: #4a0f0f;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .back-button a:hover {
+      background-color: #6f1d1b;
+    }
+
+    .instagram-button {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .instagram-button a {
+      display: inline-block;
+      background-color: #c44536;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .instagram-button a:hover {
+      background-color: #a33226;
+    }
+
+    footer {
+      background: #d4a373;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Earrings Collection</h1>
+  </header>
+
+  <div class="gallery">
+    <div class="gallery-item"><img src="e1.jpeg" alt="Earrings 1" /><div class="caption">Earrings Design 1</div></div>
+    <div class="gallery-item"><img src="e2.jpeg" alt="Earrings 2" /><div class="caption">Earrings Design 2</div></div>
+    <div class="gallery-item"><img src="e3.jpeg" alt="Earrings 3" /><div class="caption">Earrings Design 3</div></div>
+    <div class="gallery-item"><img src="e4.jpeg" alt="Earrings 4" /><div class="caption">Earrings Design 4</div></div>
+    <div class="gallery-item"><img src="e5.jpeg" alt="Earrings 5" /><div class="caption">Earrings Design 5</div></div>
+    <div class="gallery-item"><img src="e6.jpeg" alt="Earrings 6" /><div class="caption">Earrings Design 6</div></div>
+    <div class="gallery-item"><img src="e7.jpeg" alt="Earrings 7" /><div class="caption">Earrings Design 7</div></div>
+    <div class="gallery-item"><img src="e8.jpeg" alt="Earrings 8" /><div class="caption">Earrings Design 8</div></div>
+    <div class="gallery-item"><img src="e9.jpeg" alt="Earrings 9" /><div class="caption">Earrings Design 9</div></div>
+    <div class="gallery-item"><img src="e10.jpeg" alt="Earrings 10" /><div class="caption">Earrings Design 10</div></div>
+    <div class="gallery-item"><img src="e11.jpeg" alt="Earrings 12" /><div class="caption">Earrings Design 11</div></div>
+    <div class="gallery-item"><img src="e12.jpeg" alt="Earrings 13" /><div class="caption">Earrings Design 12</div></div>
+    <div class="gallery-item"><img src="e13.jpeg" alt="Earrings 14" /><div class="caption">Earrings Design 13</div></div>
+    <div class="gallery-item"><img src="e14.jpeg" alt="Earrings 15" /><div class="caption">Earrings Design 14</div></div>
+    <div class="gallery-item"><img src="e15.jpeg" alt="Earrings 16" /><div class="caption">Earrings Design 15</div></div>
+    <div class="gallery-item"><img src="e16.jpeg" alt="Earrings 17" /><div class="caption">Earrings Design 16</div></div>
+  </div>
+
+  <!-- Back Button -->
+  <div class="back-button">
+    <a href="index.html">&larr; Back to Home</a>
+  </div>
+
+  <!-- Instagram Button -->
+  <div class="instagram-button">
+    <a href="https://www.instagram.com/terracotta_skcreations?utm_source=qr&igsh=dmd6ZHVsaXlvNHJm" target="_blank">
+      Customize Your Order Now on Instagram
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 <a href="index.html">SK Creation</a>. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

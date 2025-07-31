@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - SK Creation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Merriweather', serif;
+      background-color: #fdf6f1;
+      color: #3b2f2f;
+      line-height: 1.6;
+    }
+
+    header {
+      background: url('image bc.jpg') center/cover no-repeat;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 20px;
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      left: 20px;
+      width: 120px;
+      height: auto;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .header-text h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #4A0F0F;
+    }
+
+    .header-text h3 {
+      font-size: 1.1rem;
+      color: #4A0F0F;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .qr-code img {
+      width: 250px;
+      margin-top: 20px;
+    }
+
+    .platform-link {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      color: #3b2f2f;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social-icons img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #d4a373;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+      }
+
+      .logo {
+        position: static;
+        margin-bottom: 10px;
+      }
+
+      .header-text {
+        margin-top: 10px;
+      }
+
+      .social-icons img {
+        width: 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="image.jpeg" alt="SK Logo" class="logo" />
+    <div class="header-text">
+      <h1>Contact SK Creation</h1>
+      <h3>Connect With Us Online</h3>
+    </div>
+  </header>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>Scan the QR code or use the links below:</p>
+
+    <div class="qr-code">
+      <img src="qr.jpeg" alt="Instagram QR Code" />
+    </div>
+
+    <div class="platform-link">
+      <a href="https://www.instagram.com/terracotta_skcreations?utm_source=qr&igsh=dmd6ZHVsaXlvNHJm" target="_blank">
+        Follow us on Instagram
+      </a>
+    </div>
+
+    <div class="platform-link">
+      <a href="https://youtube.com/@terracottask_creations?si=2Rkp5rGcoJ-KeVVf" target="_blank"> <!-- Replace with your YouTube link -->
+        <img src="Youtube.png" alt="YouTube" style="width: 60px; margin-top: 15px;" /><br />
+        Subscribe on YouTube
+      </a>
+    </div>
+
+   
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a> |
+      <a href="About.html">About</a> |
+      <a href="Terms and Conditions.html">Terms and Conditions</a>
+    </div>
+    <p>&copy; 2025 SK Creation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    color: #3a2c24;
+    background: #fef8f2;
+    line-height: 1.6;
+  }
+  
+  .hero {
+    background: url('pottery-bg.jpg') center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    background: rgba(255, 248, 240, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .overlay p {
+    font-size: 1.2rem;
+    color: #6b4c3b;
+  }
+  
+  .creations {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .creations h2 {
+    margin-bottom: 30px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery img {
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .why-us {
+    background: #fff6ed;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .features div {
+    max-width: 150px;
+    text-align: center;
+  }
+  
+  .features img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonial h2 {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #d6b091;
+  }
+  
+  footer {
+    background: #3a2c24;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #fff3e5;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .features {
+      flex-direction: column;
+    }
+  
+    .hero {
+      height: 60vh;
+    }
+  
+    .overlay h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .overlay h1 {
+      font-size: 1.5rem;
+    }
+  
+    .overlay p {
+      font-size: 1rem;
+    }
+  }
